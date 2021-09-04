@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap");
+
+.header {
+  width: 90%;
+  padding: 5px;
+  margin: 0 auto;
+  margin-top: 5px;
+
+  background-color: rgba(45, 19, 44, 0.7);
+  border-radius: 2px;
+}
+
+.header-h1 {
+  font-family: "Cinzel Decorative", cursive;
+  font-size: 50px;
+  font-weight: 700;
+  color: #ee4540;
+  text-align: center;
+}
+
+.header p {
+  text-align: center;
+  font-family: "Cinzel Decorative", cursive;
+  color: #f3f1f5;
+  letter-spacing: 1px;
+}
