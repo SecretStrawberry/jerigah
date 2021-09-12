@@ -3,6 +3,8 @@ import Header from "./components/Header";
 import Body from "./components/Body";
 import Story from "./components/Story";
 import Navigation from "../pages/components/Navigation.js";
+import Footer from "./components/Footer";
+
 import "./Home.css";
 
 function Home() {
@@ -12,6 +14,7 @@ function Home() {
       <Header />
       <Body />
       <Story />
+      <Footer />
     </div>
   );
 }

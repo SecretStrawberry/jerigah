@@ -4,18 +4,24 @@
   width: 90%;
   padding: 5px;
   margin: 0 auto;
-  margin-top: 5px;
 
   background-color: rgba(45, 19, 44, 0.7);
   border-radius: 2px;
 }
 
 .header-h1 {
+  margin: 0 auto;
+
+  width: 40%;
+
   font-family: "Cinzel Decorative", cursive;
-  font-size: 50px;
   font-weight: 700;
-  color: #ee4540;
+
   text-align: center;
+  font-size: 50px;
+  color: #ee4540;
+
+  border-radius: 50px;
 }
 
 .header p {
@@ -23,4 +29,55 @@
   font-family: "Cinzel Decorative", cursive;
   color: #f3f1f5;
   letter-spacing: 1px;
+}
+
+.header-h1-animate:hover {
+  color: #f3f1f5;
+
+  position: relative;
+  animation-name: animate;
+  animation-duration: 20s;
+  animation-fill-mode: reverse;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  transition: all 0.5s;
+}
+
+@keyframes animate {
+  0% {
+    box-shadow: 160px 160px 1000px 100px rgba(243, 241, 245, 0.3);
+  }
+  10% {
+    box-shadow: -160px -160px 1000px 100px rgba(243, 241, 245, 0.3);
+  }
+  20% {
+    box-shadow: 100px 100px 1000px 100px rgba(243, 241, 245, 0.3);
+  }
+  30% {
+    box-shadow: -100px -100px 1000px 100px rgba(243, 241, 245, 0.3);
+  }
+  40% {
+    box-shadow: 100px 100px 1000px 100px rgba(243, 241, 245, 0.3);
+  }
+  40% {
+    box-shadow: -160px -160px 1000px 100px rgba(243, 241, 245, 0.3);
+  }
+  50% {
+    box-shadow: 100px 100px 1000px 100px rgba(243, 241, 245, 0.3);
+  }
+  60% {
+    box-shadow: -150px -150px 1000px 100px rgba(243, 241, 245, 0.3);
+  }
+  70% {
+    box-shadow: 160px 160px 1000px 100px rgba(243, 241, 245, 0.3);
+  }
+  80% {
+    box-shadow: -160px -160px 1000px 100px rgba(243, 241, 245, 0.3);
+  }
+  90% {
+    box-shadow: 140px 140px 1000px 100px rgba(243, 241, 245, 0.3);
+  }
+  100% {
+    box-shadow: 160px 160px 1000px 100px rgba(243, 241, 245, 0.3);
+  }
 }

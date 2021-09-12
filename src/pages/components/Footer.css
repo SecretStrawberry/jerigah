@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap");
+
+.footer {
+  margin: 0 auto;
+  margin-top: 100px;
+
+  width: 90%;
+  height: 200px;
+
+  padding: 30px 100px;
+
+  border-radius: 2px;
+
+  font-family: "Comic Neue", cursive;
+  color: #f3f1f5;
+  letter-spacing: 2px;
+  line-height: 1.4;
+
+  background-color: rgba(45, 19, 44, 0.7);
+}
+
+.copyright-logo-container {
+  display: flex;
+
+  width: 50%;
+}
+
+.icon {
+  width: 50px;
+  margin-left: 10px;
+  margin-right: 20px;
+
+  border-radius: 500px;
+  background-color: #f3f1f5;
+}

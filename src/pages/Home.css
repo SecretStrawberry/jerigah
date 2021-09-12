@@ -1,1 +1,3 @@
-
+.home {
+  overflow: hidden; /* so when section-2 in the body disapears to the right, the overflow is not showed */
+}

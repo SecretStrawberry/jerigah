@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap");
+
+.footer-navigation {
+  display: flex;
+
+  justify-content: space-between;
+
+  width: 25%;
+
+  list-style: none;
+
+  font-family: "Comic Neue", cursive;
+  color: #eba83a;
+
+  padding: 10px 20px;
+}
+
+.footer-navigation span {
+  color: #f3f1f5;
+}
+
+.footer-navigation li:hover {
+  color: #f3f1f5;
+
+  transition: all 0.2s;
+}

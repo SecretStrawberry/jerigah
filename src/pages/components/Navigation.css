@@ -1,16 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap");
 
 .navigation {
-  width: 20%;
-  margin-left: auto;
-  margin-right: 4%;
+  display: flex;
+  justify-content: flex-end;
+
+  margin: 0 auto;
+  width: 90%;
+  background-color: rgba(45, 19, 44, 0.7);
 }
 
 .navigation ul {
-  margin: 0 auto;
   display: flex;
   justify-content: space-around;
   list-style: none;
+  width: 20%;
 }
 
 .navigation ul li {
@@ -22,6 +25,5 @@
 
 .navigation ul li:hover {
   transition: all 0.2s;
-  background-color: rgba(45, 19, 44, 0.7);
-  color: #eba83a;
+  color: #f3f1f5;
 }

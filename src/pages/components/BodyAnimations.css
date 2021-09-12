@@ -1,0 +1,110 @@
+@keyframes animateSection1 {
+  0% {
+    box-shadow: 160px 160px 1000px 100px rgba(95, 122, 97, 0.5);
+  }
+  10% {
+    box-shadow: -160px -160px 1000px 100px rgba(95, 122, 97, 0.5);
+  }
+  20% {
+    box-shadow: 100px 100px 1000px 100px rgba(95, 122, 97, 0.5);
+  }
+  30% {
+    box-shadow: -100px -100px 1000px 100px rgba(95, 122, 97, 0.5);
+  }
+  40% {
+    box-shadow: 100px 100px 1000px 100px rgba(95, 122, 97, 0.5);
+  }
+  40% {
+    box-shadow: -160px -160px 1000px 100px rgba(95, 122, 97, 0.5);
+  }
+  50% {
+    box-shadow: 100px 100px 1000px 100px rgba(95, 122, 97, 0.5);
+  }
+  60% {
+    box-shadow: -150px -150px 1000px 100px rgba(95, 122, 97, 0.5);
+  }
+  70% {
+    box-shadow: 160px 160px 1000px 100px rgba(95, 122, 97, 0.5);
+  }
+  80% {
+    box-shadow: -160px -160px 1000px 100px rgba(95, 122, 97, 0.5);
+  }
+  90% {
+    box-shadow: 140px 140px 1000px 100px rgba(95, 122, 97, 0.5);
+  }
+  100% {
+    box-shadow: 160px 160px 1000px 100px rgba(95, 122, 97, 0.5);
+  }
+}
+
+@keyframes animateSection2 {
+  0% {
+    box-shadow: 160px 160px 1000px 100px rgba(41, 127, 135, 0.5);
+  }
+  10% {
+    box-shadow: -160px -160px 1000px 100px rgba(41, 127, 135, 0.5);
+  }
+  20% {
+    box-shadow: 100px 100px 1000px 100px rgba(41, 127, 135, 0.5);
+  }
+  30% {
+    box-shadow: -100px -100px 1000px 100px rgba(41, 127, 135, 0.5);
+  }
+  40% {
+    box-shadow: 100px 100px 1000px 100px rgba(41, 127, 135, 0.5);
+  }
+  40% {
+    box-shadow: -160px -160px 1000px 100px rgba(41, 127, 135, 0.5);
+  }
+  50% {
+    box-shadow: 100px 100px 1000px 100px rgba(41, 127, 135, 0.5);
+  }
+  60% {
+    box-shadow: -150px -150px 1000px 100px rgba(41, 127, 135, 0.5);
+  }
+  70% {
+    box-shadow: 160px 160px 1000px 100px rgba(41, 127, 135, 0.5);
+  }
+  80% {
+    box-shadow: -160px -160px 1000px 100px rgba(41, 127, 135, 0.5);
+  }
+  90% {
+    box-shadow: 140px 140px 1000px 100px rgba(41, 127, 135, 0.5);
+  }
+  100% {
+    box-shadow: 160px 160px 1000px 100px rgba(41, 127, 135, 0.5);
+  }
+}
+
+@keyframes hideSection2 {
+  0% {
+    opacity: 100%;
+    transform: translateX(0%);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(200%);
+  }
+}
+
+@keyframes revealSection2 {
+  100% {
+    opacity: 0;
+    transform: translateX(200%);
+  }
+  0% {
+    opacity: 100%;
+    transform: translateX(0%);
+  }
+}
+
+@keyframes hideSection1 {
+  0% {
+    opacity: 100%;
+    transform: translateX(0%);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-200%);
+  }
+}
