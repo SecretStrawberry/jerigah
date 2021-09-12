@@ -77,33 +77,22 @@
 }
 
 @keyframes hideSection2 {
-  0% {
+  from {
     opacity: 100%;
     transform: translateX(0%);
   }
-  100% {
+  to {
     opacity: 0;
     transform: translateX(200%);
-  }
-}
-
-@keyframes revealSection2 {
-  100% {
-    opacity: 0;
-    transform: translateX(200%);
-  }
-  0% {
-    opacity: 100%;
-    transform: translateX(0%);
   }
 }
 
 @keyframes hideSection1 {
-  0% {
+  from {
     opacity: 100%;
     transform: translateX(0%);
   }
-  100% {
+  to {
     opacity: 0;
     transform: translateX(-200%);
   }
