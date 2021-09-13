@@ -83,7 +83,7 @@
   }
   to {
     opacity: 0;
-    transform: translateX(200%);
+    transform: translateX(50%);
   }
 }
 
@@ -94,6 +94,6 @@
   }
   to {
     opacity: 0;
-    transform: translateX(-200%);
+    transform: translateX(-50%);
   }
 }
