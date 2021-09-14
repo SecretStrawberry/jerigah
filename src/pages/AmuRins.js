@@ -1,7 +1,7 @@
 import React from "react";
 
 import Header from "./components/Header";
-import Navigation from "../pages/components/Navigation.js";
+import Navigation from "./components/Navigation.js";
 import Footer from "./components/Footer";
 
 function AmuRins() {
