@@ -1,10 +1,10 @@
 import React from "react";
 import "./Story.css";
 
-function Story() {
+function Story(props) {
   return (
-    <>
-      <h2 className="story-h2">Who are the Rhajartans</h2>
+    <div className="story-animation-container">
+      <h2 className="story-h2">{props.h2}</h2>
       <section className="section-story">
         <div className="story-container">
           <p>
@@ -34,7 +34,7 @@ function Story() {
           </p>
         </div>
       </section>
-    </>
+    </div>
   );
 }
 export default Story;

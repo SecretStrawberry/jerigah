@@ -3,16 +3,16 @@ import React from "react";
 import "./Body.css";
 import "./BodyAnimations.css";
 
-function Body() {
+function Body(props) {
   return (
     <div className="body">
       <div className="parent-section-1">
         <section className="section section-1">
-          <h2>The Traveled Path of The Nimbulan</h2>
+          <h2>{props.h2First}</h2>
           <p>
-            width: 95% All man and beast alike travel this path as they try to
-            get to the Lanur Lake in the Maky Mountains. But this path is filled
-            with thives and monsters that pray on the weak and the unwary.
+            All man and beast alike travel this path as they try to get to the
+            Lanur Lake in the Maky Mountains. But this path is filled with
+            thives and monsters that pray on the weak and the unwary.
           </p>
           <p>
             Even though is the most traveled road, is the most dangerous. The
@@ -27,7 +27,7 @@ function Body() {
       </div>
       <div className="parent-section-2">
         <section className="section section-2">
-          <h2>The Untraveld Path of Amu Rin</h2>
+          <h2>{props.h2Second}</h2>
           <p>
             This path is one of finding ones inner strenght. Just the wise and
             the enlightened will succeed to go through, as this path is one of

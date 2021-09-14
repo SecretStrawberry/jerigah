@@ -12,7 +12,7 @@
   font-size: 18px;
   line-height: 1.4;
 
-  background-color: rgba(128, 19, 54, 0.7);
+  background-color: rgba(128, 19, 54, 0.9);
   color: #f3f1f5;
 
   border-radius: 2px;
@@ -26,7 +26,7 @@
 
   padding: 5px 15px;
 
-  background-color: rgba(128, 19, 54, 0.7);
+  background-color: rgba(128, 19, 54, 0.9);
 
   font-family: "Cinzel Decorative", cursive;
   color: #eba83a;
@@ -42,4 +42,64 @@
   border-radius: 2px;
 
   box-shadow: 1px 2px 8px 8px #261c2c;
+}
+
+.story-animation-container:hover .section-story {
+  animation-name: animateStory;
+  animation-duration: 20s;
+
+  animation-iteration-count: infinite;
+
+  transition: all 0.5s;
+}
+
+.story-animation-container:hover .story-container {
+  transform: scale(1.2);
+  transition: all 0.5s;
+}
+
+.story-animation-container:hover .story-h2 {
+  background-color: #f3f1f5;
+  color: rgba(33, 66, 82, 1);
+
+  transition: all 0.5s;
+}
+
+@keyframes animateStory {
+  0% {
+    box-shadow: 160px 160px 1000px 100px rgba(33, 66, 82, 0.6);
+  }
+  10% {
+    box-shadow: -160px -160px 1000px 100px rgba(33, 66, 82, 0.6);
+  }
+  20% {
+    box-shadow: 100px 100px 1000px 100px rgba(33, 66, 82, 0.6);
+  }
+  30% {
+    box-shadow: -100px -100px 1000px 100px rgba(33, 66, 82, 0.6);
+  }
+  40% {
+    box-shadow: 100px 100px 1000px 100px rgba(33, 66, 82, 0.6);
+  }
+  40% {
+    box-shadow: -160px -160px 1000px 100px rgba(33, 66, 82, 0.6);
+  }
+  50% {
+    box-shadow: 100px 100px 1000px 100px rgba(33, 66, 82, 0.6);
+  }
+  60% {
+    box-shadow: -150px -150px 1000px 100px rgba(33, 66, 82, 0.6);
+  }
+  70% {
+    box-shadow: 160px 160px 1000px 100px rgba(33, 66, 82, 0.6);
+  }
+  80% {
+    box-shadow: -160px -160px 1000px 100px rgba(33, 66, 82, 0.6);
+  }
+  90% {
+    box-shadow: 140px 140px 1000px 100px rgba(33, 66, 82, 0.6);
+  }
+  100% {
+    box-shadow: 160px 160px 1000px 100px rgba(33, 66, 82, 0.6);
+  }
 }
