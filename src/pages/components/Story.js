@@ -20,7 +20,7 @@ function Story(props) {
           </p>
           <p>
             Even though they where to schools of thoughts, totaly separated,
-            they fight together as one to defete their enemys.
+            they fight together as one to defeat their enemys.
           </p>
           <p>
             Nimbulans they are phiscal and strong, well prepared in the art of

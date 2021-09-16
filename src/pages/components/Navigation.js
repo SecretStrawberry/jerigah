@@ -39,7 +39,7 @@ function Nimbulans() {
   );
 }
 
-function AmuRins() {
+function AmuRins(props) {
   const dropdownRef = useRef(null);
   const [isActive, setIsActive] = DetectOutsideClick(dropdownRef, false);
   const onClick = () => setIsActive(!isActive);
@@ -47,7 +47,7 @@ function AmuRins() {
   return (
     <div className="secondary-nav-container">
       <Link to="/amurins" className="btn" onClick={onClick}>
-        Amu rins
+        Amu Rins
       </Link>
       <nav
         ref={dropdownRef}
@@ -64,9 +64,9 @@ function AmuRins() {
   );
 }
 
-function Navigation() {
+function Navigation(props) {
   return (
-    <div className="navigation">
+    <div className="navigation" style={{ backgroundColor: props.background }}>
       <Home />
       <Nimbulans />
       <AmuRins />
