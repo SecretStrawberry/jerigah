@@ -5,19 +5,19 @@
   margin-top: 100px;
 
   border-radius: 2px;
-  color: rgba(128, 19, 54, 1);
+
+  font-size: 20px;
+  line-height: 1.4;
+  color: rgba(41, 59, 95, 1);
 }
 
 .clans-presentation {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
 
-  background-image: linear-gradient(
-    rgba(243, 241, 245, 0.8),
-    rgba(243, 241, 245, 0.8)
-  );
+  background-color: rgba(243, 241, 245, 1);
 
-  padding: 20px 50px;
+  padding: 50px 50px;
 
   border-radius: 2px;
 }
@@ -26,10 +26,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
   padding: 10px 20px;
   width: 100%;
 
+  box-shadow: 1px 2px 8px 8px rgba(41, 59, 95, 0.3);
+
   border-radius: 2px;
+}
+
+.clans-description:not(:first-child) {
+  margin-top: 50px;
 }
 
 .clans-text {
@@ -37,7 +44,7 @@
 }
 
 .clans-title {
-  border-bottom: 1px solid rgba(45, 19, 44, 1);
+  border-bottom: 1px solid rgba(41, 59, 95, 1);
 }
 
 .img-container {

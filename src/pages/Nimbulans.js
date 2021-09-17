@@ -15,7 +15,6 @@ import "./Nimbulans.css";
 function Nimbulans(props) {
   return (
     <div className="nimbulans">
-      <Navigation background="rgba(95, 122, 97, 0.7)" />
       <Header
         background="rgba(95, 122, 97, 0.7)"
         h1="Nimbulans"
@@ -67,7 +66,7 @@ function Nimbulans(props) {
         // secondCharacterClassTtile2="Crosbowman"
         // secondCharacterClassTtile3="Rifleman"
       />
-      <Footer background="rgba(95, 122, 97, 0.7)" />
+      <Footer background="rgba(95, 122, 97, 1)" />
     </div>
   );
 }

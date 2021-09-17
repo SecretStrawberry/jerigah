@@ -15,7 +15,6 @@ import blacksmith from "./../images/blacksmith.png";
 function AmuRins(props) {
   return (
     <div className="amurins">
-      <Navigation background="rgba(41, 127, 135, 0.9)" />
       <Header
         background="rgba(41, 127, 135, 0.9)"
         h1="Amu Rins"
@@ -54,7 +53,7 @@ function AmuRins(props) {
         as it is their power to heal."
         secondCharacterParagraph3="They folow just one school: The Crafst and Healing Temple"
       />
-      <Footer background="rgba(41, 127, 135, 0.9)" />
+      <Footer background="rgba(41, 127, 135, 1)" />
     </div>
   );
 }

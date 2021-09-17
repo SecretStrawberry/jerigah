@@ -34,7 +34,7 @@ function ClansContent(props) {
         </div>
       </section>
 
-      <section className="clans-presentation">
+      {/* <section className="clans-presentation">
         <div className="clans-description">
           <div>
             <h2 className="clans-title">{props.firstCharacterClasses}</h2>
@@ -52,7 +52,7 @@ function ClansContent(props) {
             <h3>{props.secondCharacterClassTtile3}</h3>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

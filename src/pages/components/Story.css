@@ -8,30 +8,22 @@
   padding: 10px;
   margin: 0 auto;
 
+  margin-top: 100px;
+
   font-family: "Comic Neue", cursive;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.4;
 
-  background-color: rgba(128, 19, 54, 0.9);
-  color: #f3f1f5;
+  background-color: rgba(243, 241, 245, 1);
+  color: rgba(41, 59, 95, 1);
 
   border-radius: 2px;
   padding: 50px 10px;
 }
 
 .story-h2 {
-  width: fit-content;
-  margin: 0 auto;
-  margin-top: 100px;
-
-  padding: 5px 15px;
-
-  background-color: rgba(128, 19, 54, 0.9);
-
+  text-align: center;
   font-family: "Cinzel Decorative", cursive;
-  color: #eba83a;
-
-  border-radius: 10px 10px;
 }
 
 .story-container {
@@ -41,65 +33,20 @@
   padding: 10px 20px;
   border-radius: 2px;
 
-  box-shadow: 1px 2px 8px 8px #261c2c;
-}
-
-.story-animation-container:hover .section-story {
-  animation-name: animateStory;
-  animation-duration: 20s;
-
-  animation-iteration-count: infinite;
-
-  transition: all 0.5s;
+  box-shadow: 1px 2px 8px 8px rgba(41, 59, 95, 0.5);
 }
 
 .story-animation-container:hover .story-container {
-  transform: scale(1.2);
+  transform: scale(1.1);
+
+  box-shadow: 1px 2px 8px 8px rgba(25, 67, 80, 0.5);
+  color: rgba(25, 67, 80, 1);
+
   transition: all 0.5s;
 }
 
 .story-animation-container:hover .story-h2 {
-  background-color: #f3f1f5;
-  color: rgba(33, 66, 82, 1);
+  text-decoration: underline;
 
   transition: all 0.5s;
-}
-
-@keyframes animateStory {
-  0% {
-    box-shadow: 160px 160px 1000px 100px rgba(33, 66, 82, 0.6);
-  }
-  10% {
-    box-shadow: -160px -160px 1000px 100px rgba(33, 66, 82, 0.6);
-  }
-  20% {
-    box-shadow: 100px 100px 1000px 100px rgba(33, 66, 82, 0.6);
-  }
-  30% {
-    box-shadow: -100px -100px 1000px 100px rgba(33, 66, 82, 0.6);
-  }
-  40% {
-    box-shadow: 100px 100px 1000px 100px rgba(33, 66, 82, 0.6);
-  }
-  40% {
-    box-shadow: -160px -160px 1000px 100px rgba(33, 66, 82, 0.6);
-  }
-  50% {
-    box-shadow: 100px 100px 1000px 100px rgba(33, 66, 82, 0.6);
-  }
-  60% {
-    box-shadow: -150px -150px 1000px 100px rgba(33, 66, 82, 0.6);
-  }
-  70% {
-    box-shadow: 160px 160px 1000px 100px rgba(33, 66, 82, 0.6);
-  }
-  80% {
-    box-shadow: -160px -160px 1000px 100px rgba(33, 66, 82, 0.6);
-  }
-  90% {
-    box-shadow: 140px 140px 1000px 100px rgba(33, 66, 82, 0.6);
-  }
-  100% {
-    box-shadow: 160px 160px 1000px 100px rgba(33, 66, 82, 0.6);
-  }
 }

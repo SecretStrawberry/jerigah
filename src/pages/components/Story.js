@@ -1,12 +1,19 @@
 import React from "react";
 import "./Story.css";
+import warrior from "../../images/warriorHome.png";
+import warrior1 from "../../images/warriorHome1.png";
 
 function Story(props) {
   return (
     <div className="story-animation-container">
-      <h2 className="story-h2">{props.h2}</h2>
       <section className="section-story">
+        <img
+          src={warrior}
+          alt="warrior holding axe on shoulder"
+          width={"300px"}
+        />
         <div className="story-container">
+          <h2 className="story-h2">{props.h2}</h2>
           <p>
             This is the story of the the clan people of Rhajarta. They appared
             first time in Jerigah as a craftsman tribe that arived here in
@@ -33,6 +40,11 @@ function Story(props) {
             gadgets and weapons.
           </p>
         </div>
+        <img
+          src={warrior1}
+          alt="warrior holding axe on shoulder"
+          width={"250px"}
+        />
       </section>
     </div>
   );
