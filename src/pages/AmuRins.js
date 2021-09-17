@@ -32,12 +32,12 @@ function AmuRins(props) {
         ///////////////////////////////// Warlocks paragraphs ////////////////////////////////////////
         //////////////////////////////////////////////////////////////////////////////////////////////
         firstCharacterParagrph1="The warlocks of Amu Rin are trained in the mystical arts.
-        Their devotion to these arts, gives them a better understanding of the world that surrounds
+        Their devotion to these arts gives them a better understanding of the world that surrounds
         them, and the world of the spirits."
-        firstCharacterParagrph2="With such great knowledge cames great power and great responsbility.
-        Their devotion to all living creatures is remarcable, but this dose not stop them to use the
-        power within them to defend their brothers and sisters."
-        firstCharacterParagrph3="The warlocks split into two schools: The Elemtals and The Sipirts Whisperers"
+        firstCharacterParagrph2="With such great knowledge comes great power and great responsibility.
+        Their devotion to all living creatures is remarkable, but this does not stop them to use the
+        the power within them to defend their brothers and sisters."
+        firstCharacterParagrph3="The warlocks split into two schools: The Elementals and The Sipirts Whisperers"
         //////////////////////////////////////////////////////////////////////////////////////////////
         /////////////////////////////////// craftsman title and image ////////////////////////////////
         //////////////////////////////////////////////////////////////////////////////////////////////
@@ -47,11 +47,11 @@ function AmuRins(props) {
         //////////////////////////////////////////////////////////////////////////////////////////////
         /////////////////////////////////// craftsman paragraphs /// /////////////////////////////////
         //////////////////////////////////////////////////////////////////////////////////////////////
-        secondCharacterParagraph1="The Craftsman are using their knowledge to build gadgets and traps.
-        The magic runs through their veins wich gives them the power to imbune wepons and armours."
+        secondCharacterParagraph1="The Craftsmen are using their knowledge to build gadgets and traps.
+        The magic runs through their veins which gives them the power to imbue weapons and armours."
         secondCharacterParagraph2="In the heat of battle their gadgets and traps are a wellcomed support
         as it is their power to heal."
-        secondCharacterParagraph3="They folow just one school: The Crafst and Healing Temple"
+        secondCharacterParagraph3="They follow just one school: The Crafts and Healing Temple"
       />
       <Footer background="rgba(41, 127, 135, 1)" />
     </div>

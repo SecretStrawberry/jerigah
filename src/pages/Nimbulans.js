@@ -31,10 +31,10 @@ function Nimbulans(props) {
         //////////////////////////////////////////////////////////////////////////////////////////////
         ///////////////////////////////// soldiers paragraphs ////////////////////////////////////////
         //////////////////////////////////////////////////////////////////////////////////////////////
-        firstCharacterParagrph1=" The soldiers of Nimbulans are trained to respect life and have
-        courage, to honor all beasts and man. Never take a life if is not
+        firstCharacterParagrph1="The soldiers of Nimbulans are trained to respect life and have
+        courage, to honour all beasts and men. Never take a life if is not
         required."
-        firstCharacterParagrph2="Even though they respect life, they are strong and skiled fighters
+        firstCharacterParagrph2="Even though they respect life, they are strong and skilled fighters
         and will not hesitate to go into battle for the just cause."
         firstCharacterParagrph3="They split into two schools: The Swordsman and Axeman."
         //////////////////////////////////////////////////////////////////////////////////////////////
@@ -47,8 +47,8 @@ function Nimbulans(props) {
         ///////////////////////////////// archers paragraphs /////////////////////////////////////////
         //////////////////////////////////////////////////////////////////////////////////////////////
         secondCharacterParagraph1="The archers share the same ideology to respect all life."
-        secondCharacterParagraph2=" Beaing the scouts of the Nimbulans, they are always ahead of the
-        party. Beaing very stealthy, they attack from cover, conveing a
+        secondCharacterParagraph2=" Being the scouts of the Nimbulans, they are always ahead of the
+        party. Being very stealthy, they attack from cover, conveying a
         great deal of damage."
         secondCharacterParagraph3=" They split into three schools: The Archwielders, Crossbowmans,
         Riflemans."

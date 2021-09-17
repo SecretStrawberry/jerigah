@@ -12,11 +12,11 @@ function Body(props) {
           <p>
             All man and beast alike travel this path as they try to get to the
             Lanur Lake in the Maky Mountains. But this path is filled with
-            thives and monsters that pray on the weak and the unwary.
+            thives and monsters that prey on the weak and the unwary.
           </p>
           <p>
-            Even though is the most traveled road, is the most dangerous. The
-            bounty is plenty, the mobs are strong. Many perish in their
+            Even though is the most travelled road, is the most dangerous. The
+            bounty is plentiful, the mobs are strong. Many perish in their
             endevour. Take this path and most likely you find your doom.
           </p>
           <p>
@@ -29,16 +29,16 @@ function Body(props) {
         <section className="section section-2">
           <h2>{props.h2Second}</h2>
           <p>
-            This path is one of finding ones inner strenght. Just the wise and
+            This path is one of finding ones inner strength. Just the wise and
             the enlightened will succeed to go through, as this path is one of
-            knowing your self and the world around.
+            knowing yourself and the world around you.
           </p>
           <p>
-            There are no mobs here, at least not the phisical ones. But the
-            spiritual chalanges are as powerfull as the phisical ones.
+            There are no mobs here, at least not the physical ones. But the
+            spiritual challenges are as powerful as physical ones.
           </p>
           <p>
-            If you reach lake Lanur through this path, you power and knowledge
+            If you reach lake Lanur through this path, your power and knowledge
             can save or destroy all around.
           </p>
         </section>
