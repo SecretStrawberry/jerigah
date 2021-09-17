@@ -7,6 +7,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+::selection {
+  background-color: rgba(41, 59, 95, 1);
+  color: rgba(243, 241, 245, 1);
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
