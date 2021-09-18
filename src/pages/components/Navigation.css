@@ -99,6 +99,7 @@ nav ul {
   list-style: none;
 
   width: 150px;
+  height: 200px;
 }
 
 nav ul li {
@@ -110,4 +111,12 @@ nav ul li {
 
 nav ul li:not(:last-of-type) {
   border-bottom: 1px solid rgba(41, 59, 95, 1);
+}
+
+nav ul li:hover {
+  color: rgba(243, 241, 245, 1);
+  background-color: rgba(41, 59, 95, 1);
+  transition: all 0.2s;
+  box-shadow: 1px 1px 7px 5px rgba(41, 59, 95, 0.5);
+  border-radius: 2px;
 }

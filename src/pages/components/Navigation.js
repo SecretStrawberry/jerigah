@@ -1,6 +1,8 @@
 import React, { useRef } from "react";
 import { DetectOutsideClick } from "../../helpers/DetectOustsideClick";
 import { Link } from "react-router-dom";
+import sword from "../../images/flamingSword.png";
+import orb from "../../images/orb.png";
 
 import "./Navigation.css";
 
@@ -33,6 +35,7 @@ function Nimbulans() {
           <li>Classes</li>
           <li>Art of war</li>
           <li>Atributes</li>
+          <img src={sword} alt="flaming sword" width={"150px"} />
         </ul>
       </nav>
     </div>
@@ -56,8 +59,15 @@ function AmuRins(props) {
         <ul>
           <li>Classes</li>
           <li>Magic</li>
-          <li>Craftsman</li>
           <li>Atributes</li>
+          <img
+            className="img-orb-style"
+            src={orb}
+            alt="flaming sword"
+            width={"100px"}
+            height={"100px"}
+            style={{ marginLeft: "24px" }}
+          />
         </ul>
       </nav>
     </div>
