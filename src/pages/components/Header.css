@@ -7,7 +7,8 @@
   padding: 5px;
   margin: 0 auto;
   background-image: url("../../images/castleHeader.jpg");
-  background-size: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   border-radius: 2px;
   z-index: 1;
 }
@@ -62,4 +63,18 @@ header::after {
   font-weight: 900;
   letter-spacing: 1px;
   text-shadow: 2px 8px 8px #fec260;
+}
+
+@media only screen and (max-width: 500px) {
+  .header {
+    width: 100%;
+  }
+  .header-h1 {
+    width: 100%;
+    margin-top: 50px;
+    font-size: 25px;
+  }
+  .header p {
+    font-size: 10px;
+  }
 }

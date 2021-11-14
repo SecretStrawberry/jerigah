@@ -29,6 +29,26 @@
   font-family: "Cinzel Decorative", cursive;
 }
 
+@media only screen and (max-width: 500px) {
+  .body {
+    flex-direction: column;
+
+    margin-top: 30px;
+
+    width: 98%;
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .body p {
+    font-size: 15px;
+  }
+
+  .body h2 {
+    font-size: 20px;
+  }
+}
+
 .section {
   width: 100%;
   padding: 10px;
@@ -36,6 +56,17 @@
 
   box-shadow: 1px 2px 8px 8px rgba(41, 59, 95, 0.5);
   border-radius: 2px;
+
+  transition: all 0.2s;
+}
+
+@media only screen and (max-width: 500px) {
+  .section {
+    margin: 0 auto;
+  }
+  .section-2 {
+    margin-top: 30px;
+  }
 }
 
 .section-1 {
@@ -44,7 +75,7 @@
 }
 
 .section-2 {
-  position: relative;
+  width: 95%;
   height: 100%;
 }
 
@@ -120,4 +151,13 @@
   animation-fill-mode: forwards;
 
   transition: all 1s;
+}
+
+@media only screen and (max-width: 500px) {
+  .parent-section-1 {
+    pointer-events: none;
+  }
+  .parent-section-2 {
+    pointer-events: none;
+  }
 }

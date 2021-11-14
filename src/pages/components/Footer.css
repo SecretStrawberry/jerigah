@@ -33,3 +33,15 @@
   border-radius: 500px;
   background-color: #f3f1f5;
 }
+
+@media only screen and (max-width: 500px) {
+  .footer {
+    width: 98%;
+    padding: 10px 20px;
+    height: auto;
+    font-size: 12px;
+  }
+  .copyright-logo-container {
+    width: 100%;
+  }
+}
